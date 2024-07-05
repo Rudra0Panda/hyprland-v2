@@ -1,0 +1,44 @@
+.notification {
+    border: 0px solid black;
+    box-shadow: 0px 0px rgba(20,20,20,0);
+    background-color: rgba(20,20,20,0.5);
+    padding: 20px 15px;
+  }
+  
+* {
+  font-family: noto-sans;
+color:#fff;
+}
+.control-center {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding:20px;
+color:#ffffff;
+  background-color: rgba(0,0,0,0.5);
+}
+.control-center-clear-all {
+border:none;
+background-color:rgba(200,200,200,1);
+color:#FFF;
+}
+
+.widget-dnd,
+.widget-title {
+  color: black;
+padding:1px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.widget-dnd>switch {
+  border-radius: 5px;
+padding:2px;
+  background: #665c54;
+  border: 0px solid black;
+}
+.widget-dnd>switch slider {
+margin:2px;
+border:none;
+background-color:#ffffff;
+}
